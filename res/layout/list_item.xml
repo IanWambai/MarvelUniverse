@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5.0dip" 
+    android:background="#36c3e0">
+
+    <LinearLayout
+        android:id="@+id/thumbLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_marginRight="2.0dip"
+        android:background="@drawable/list_gradient_bg" >
+
+        <ImageView
+            android:id="@+id/ivThumbnail"
+            android:layout_width="100.0dip"
+            android:layout_height="100.0dip"
+            android:layout_margin="5.0dip"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thumbTextLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="110.0dip"
+        android:layout_toRightOf="@id/thumbLayout"
+        android:background="@drawable/list_selector"
+        android:orientation="vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingTop="5.0dip" >
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:text="Name"
+            android:textColor="#ffffffff"
+            android:textSize="20.0dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/itemDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+
+</RelativeLayout>

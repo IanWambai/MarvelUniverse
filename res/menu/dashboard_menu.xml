@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mLogout"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Logout"
+        android:titleCondensed="Logout">
+    </item>
+    <item
+        android:id="@+id/mNewStory"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="New Story"
+        android:titleCondensed="New Story">
+    </item>
+
+</menu>
